@@ -42,8 +42,8 @@ ref.on("value",function(snapshot){
 				let text=list.split("|");
 				$("#app").prepend("<div id=\"container\"><div class=\"img left\"><img src=\""
 					+text[1]+
-					"\"/></div><a class=\"left gray\">"+text[2].replace("\"","")+"</a><br><p>"
-					+text[0].replace("\"","").replace("[","")+"</p><br><a class=\"gray\"> เวลา "+text[3].replace("\"","")+"</a><a class=\"right gray\">วันที่ "+text[4].replace("\"","").replace("]","")+"</a></div>");
+					"\"/></div><a class=\"left gray\">"+text[2].replace("\"","")+"</a><br><br><p>"
+					+text[0].replace("\"","").replace("[","")+"</p><br><a class=\"gray\"> เวลา "+text[3].replace("\"","")+"</a><a class=\"gray\">วันที่ "+text[4].replace("\"","").replace("]","")+"</a></div>");
 			}
 			}else{
 				console.log("s");
@@ -51,8 +51,8 @@ ref.on("value",function(snapshot){
 				let text=list.split("|");
 				$("#app").prepend("<div id=\"container\"><div class=\"img left\"><img src=\""
 					+text[1]+
-					"\"/></div><a class=\"left gray\">"+text[2].replace("\"","")+"</a><br><p>"
-					+text[0].replace("\"","").replace("[","")+"</p><br><a class=\"gray\"> เวลา "+text[3].replace("\"","")+"</a><a class=\"right gray\">วันที่ "+text[4].replace("\"","").replace("]","")+"</a></div>");
+					"\"/></div><a class=\"left gray\">"+text[2].replace("\"","")+"</a><br><br><p>"
+					+text[0].replace("\"","").replace("[","")+"</p><br><a class=\"gray\"> เวลา "+text[3].replace("\"","")+"</a><a class=\"gray\">วันที่ "+text[4].replace("\"","").replace("]","")+"</a></div>");
 			}
 			
 			
